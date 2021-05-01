@@ -1,0 +1,48 @@
+Pistol:
+  ItemSettings:
+    Ammo:
+      Name: "&ePistol Ammo"
+      ID: ARROW
+      Data: 0
+      Description:
+        - "&f"
+Rifle:
+  ItemSettings:
+    Ammo:
+      Name: "&eRifle Ammo"
+      ID: ARROW
+      Data: 0
+      Description:
+        - "&f"
+SMG:
+  ItemSettings:
+    Ammo:
+      Name: "&eSMG Ammo"
+      ID: ARROW
+      Data: 0
+      Description:
+        - "&f"
+Sniper:
+  ItemSettings:
+    Ammo:
+      Name: "&eSniper Ammo"
+      ID: ARROW
+      Data: 0
+      Description:
+        - "&f"
+RPG:
+  ItemSettings:
+    Ammo:
+      Name: "&eRPG Ammo"
+      ID: FIREBALL
+      Data: 0
+      Description:
+        - "&f"
+MachineGun:
+  ItemSettings:
+    Ammo:
+      Name: "&eMachineGun Ammo"
+      ID: FIREBALL
+      Data: 0
+      Description:
+        - "&f"

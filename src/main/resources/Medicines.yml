@@ -1,0 +1,22 @@
+Bandages:
+  ItemSettings:
+    Name: "&cBandages"
+    ID: PAPER
+    Data: 0
+    Description:
+      - "&f"
+  MedicineSettings:
+    #Max player health = 20.0
+    HealthToHeal: 6.0 # 6.0 = 3 Hearts
+    Cooldown: 5000
+MedKit:
+  ItemSettings:
+    Name: "&cMedKit"
+    ID: CHEST
+    Data: 0
+    Description:
+      - "&f"
+  MedicineSettings:
+    #Max player health = 20.0
+    HealthToHeal: 12.0 # 12.0 = 6 Hearts
+    Cooldown: 8000

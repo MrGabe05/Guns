@@ -1,0 +1,761 @@
+#Pistols:
+DesertEagle:
+  ItemSettings:
+    #Gun item: Set the item type for the weapon
+    Gun:
+      Name: "&aDesert Eagle"
+      ID: IRON_PICKAXE
+      Data: 0
+      Description:
+        - "&8Rarity: %rarity%"
+    #If you want there to be a permission to use this weapon, change the false to true and set the permission
+    RequiredPermission: false
+    Permission: ""
+  GunSettings:
+    Ammo: "Pistol"
+    #There are 2 modes, "IMPACT" and "EXPLOSIVE".
+    #IMPACT represents normal bullets, for weapons such as pistols, rifles, snipers.
+    #EXPLOSIVE represents the class of explosive bullets, used for RPGs, rocket launchers, etc.
+    GunType: IMPACT
+    #This is the normal damage that the victim will receive when receiving an "IMPACT" type shot.
+    NormalDamage:
+      Common: 8.0
+      Uncommon: 12.0
+      Rare: 15.0
+      Legendary: 17.0
+      Exotic: 20.0
+    #This is the damage the victim will receive when he is shot at head level
+    HeadShotDamage:
+      Common: 15.0
+      Uncommon: 20.0
+      Rare: 24.0
+      Legendary: 28.0
+      Exotic: 35.0
+    RecoilAmount: 1.2
+    #How often will a bullet be fired from the gun, Time in milliseconds
+    ShootDelay: 800 #ms
+    #How long will the gun take to reload
+    ReloadDelay: 6000 #6 seconds
+    #When the bullets are finished, this option will allow if the weapon will reload automatically or you will have to press SHIFT + RIGHT UI_BUTTON_CLICK to be reloaded
+    AutomaticReload: true
+    #This is the zoom sight level, which can be used using the LEFT UI_BUTTON_CLICK.
+    ZoomLevel: 1
+    # If the weapon is "AUTOMATIC" it is fired with RIGHT UI_BUTTON_CLICK
+    # If the weapon is "SEMIAUTOMATIC" or "BURST" it is fired with LEFT UI_BUTTON_CLICK
+    FireMode: SEMIAUTOMATIC
+    #This is the capacity of bullets that the weapon will have
+    AmmoCapacity: 7
+    AmmoProjectile:
+      #This is the speed at which the bullet will travel, the higher the speed, the more range it has
+      Velocity: 7
+      Bounce: false
+      #It is in the amount of bullets that will be fired, for each shot, this is ideal for creating weapons such as shotguns
+      ProjectileAmount: 1
+    Sound:
+      Shooting:
+        SoundType: BLOCK_LAVA_POP
+        #Volume 0.0 - 1.0
+        Volume: 1.0
+      Reloading:
+        SoundType: UI_BUTTON_CLICK
+        #Volume 0.0 - 1.0
+        Volume: 0.7
+      NoBullets:
+        SoundType: UI_BUTTON_CLICK
+        #Volume 0.0 - 1.0
+        Volume: 0.7
+USP:
+  ItemSettings:
+    Gun:
+      Name: "&aUSP"
+      ID: WOOD_PICKAXE
+      Data: 0
+      Description:
+        - "&8Rarity: %rarity%"
+    RequiredPermission: false
+    Permission: ""
+  GunSettings:
+    Ammo: "Pistol"
+    GunType: IMPACT
+    NormalDamage:
+      Common: 8.0
+      Uncommon: 12.0
+      Rare: 15.0
+      Legendary: 17.0
+      Exotic: 20.0
+    HeadShotDamage:
+      Common: 15.0
+      Uncommon: 20.0
+      Rare: 24.0
+      Legendary: 28.0
+      Exotic: 35.0
+    RecoilAmount: 1.2
+    ShootDelay: 400
+    ReloadDelay: 5000
+    AutomaticReload: true
+    ZoomLevel: 1
+    FireMode: SEMIAUTOMATIC
+    AmmoCapacity: 12
+    AmmoProjectile:
+      Velocity: 10
+      Bounce: false
+      ProjectileAmount: 1
+    Sound:
+      Shooting:
+        SoundType: BLOCK_LAVA_POP
+        Volume: 0.0
+      Reloading:
+        SoundType: UI_BUTTON_CLICK
+        Volume: 0.4
+      NoBullets:
+        SoundType: UI_BUTTON_CLICK
+        Volume: 0.4
+CZ-75:
+  ItemSettings:
+    Gun:
+      Name: "&aCZ-75"
+      ID: WOOD_PICKAXE
+      Data: 0
+      Description:
+        - "&8Rarity: %rarity%"
+    RequiredPermission: false
+    Permission: ""
+  GunSettings:
+    Ammo: "Pistol"
+    GunType: IMPACT
+    NormalDamage:
+      Common: 8.0
+      Uncommon: 12.0
+      Rare: 15.0
+      Legendary: 17.0
+      Exotic: 20.0
+    HeadShotDamage:
+      Common: 15.0
+      Uncommon: 20.0
+      Rare: 24.0
+      Legendary: 28.0
+      Exotic: 35.0
+    RecoilAmount: 1.2
+    ShootDelay: 350
+    ReloadDelay: 4500
+    AutomaticReload: true
+    ZoomLevel: 1
+    FireMode: AUTOMATIC
+    AmmoCapacity: 15
+    AmmoProjectile:
+      Velocity: 10
+      Bounce: false
+      ProjectileAmount: 1
+    Sound:
+      Shooting:
+        SoundType: BLOCK_LAVA_POP
+        Volume: 0.5
+      Reloading:
+        SoundType: UI_BUTTON_CLICK
+        Volume: 0.7
+      NoBullets:
+        SoundType: UI_BUTTON_CLICK
+        Volume: 0.7
+Tec-9:
+  ItemSettings:
+    Gun:
+      Name: "&aTec-9"
+      ID: WOOD_PICKAXE
+      Data: 0
+      Description:
+        - "&8Rarity: %rarity%"
+    RequiredPermission: false
+    Permission: ""
+  GunSettings:
+    Ammo: "Pistol"
+    GunType: IMPACT
+    NormalDamage:
+      Common: 8.0
+      Uncommon: 12.0
+      Rare: 15.0
+      Legendary: 17.0
+      Exotic: 20.0
+    HeadShotDamage:
+      Common: 15.0
+      Uncommon: 20.0
+      Rare: 24.0
+      Legendary: 28.0
+      Exotic: 35.0
+    RecoilAmount: 1.2
+    ShootDelay: 200
+    ReloadDelay: 5000
+    AutomaticReload: true
+    ZoomLevel: 1
+    FireMode: SEMIAUTOMATIC
+    AmmoCapacity: 15
+    AmmoProjectile:
+      Velocity: 15
+      Bounce: false
+      ProjectileAmount: 1
+    Sound:
+      Shooting:
+        SoundType: BLOCK_LAVA_POP
+        Volume: 0.4
+      Reloading:
+        SoundType: UI_BUTTON_CLICK
+        Volume: 0.7
+      NoBullets:
+        SoundType: UI_BUTTON_CLICK
+        Volume: 0.7
+#SMGs
+MAC-10:
+  ItemSettings:
+    Gun:
+      Name: "&aMAC-10"
+      ID: WOOD_PICKAXE
+      Data: 0
+      Description:
+        - "&8Rarity: %rarity%"
+    RequiredPermission: false
+    Permission: ""
+  GunSettings:
+    Ammo: "SMG"
+    GunType: IMPACT
+    NormalDamage:
+      Common: 8.0
+      Uncommon: 12.0
+      Rare: 15.0
+      Legendary: 17.0
+      Exotic: 20.0
+    HeadShotDamage:
+      Common: 15.0
+      Uncommon: 20.0
+      Rare: 24.0
+      Legendary: 28.0
+      Exotic: 35.0
+    RecoilAmount: 1.2
+    ShootDelay: 200
+    ReloadDelay: 5000
+    AutomaticReload: true
+    ZoomLevel: 3
+    FireMode: AUTOMATIC
+    AmmoCapacity: 30
+    AmmoProjectile:
+      Velocity: 20
+      Bounce: false
+      ProjectileAmount: 1
+    Sound:
+      Shooting:
+        SoundType: BLOCK_LAVA_POP
+        Volume: 0.6
+      Reloading:
+        SoundType: UI_BUTTON_CLICK
+        Volume: 0.8
+      NoBullets:
+        SoundType: UI_BUTTON_CLICK
+        Volume: 0.8
+P90:
+  ItemSettings:
+    Gun:
+      Name: "&aP90"
+      ID: WOOD_PICKAXE
+      Data: 0
+      Description:
+        - "&8Rarity: %rarity%"
+    RequiredPermission: false
+    Permission: ""
+  GunSettings:
+    Ammo: "SMG"
+    GunType: IMPACT
+    NormalDamage:
+      Common: 8.0
+      Uncommon: 12.0
+      Rare: 15.0
+      Legendary: 17.0
+      Exotic: 20.0
+    HeadShotDamage:
+      Common: 15.0
+      Uncommon: 20.0
+      Rare: 24.0
+      Legendary: 28.0
+      Exotic: 35.0
+    RecoilAmount: 1.2
+    ShootDelay: 100
+    ReloadDelay: 4000
+    AutomaticReload: true
+    ZoomLevel: 3
+    FireMode: AUTOMATIC
+    AmmoCapacity: 30
+    AmmoProjectile:
+      Velocity: 20
+      Bounce: false
+      ProjectileAmount: 1
+    Sound:
+      Shooting:
+        SoundType: BLOCK_LAVA_POP
+        Volume: 0.6
+      Reloading:
+        SoundType: UI_BUTTON_CLICK
+        Volume: 0.8
+      NoBullets:
+        SoundType: UI_BUTTON_CLICK
+        Volume: 0.8
+PP-Bizon:
+  ItemSettings:
+    Gun:
+      Name: "&aPP-Bizon"
+      ID: WOOD_PICKAXE
+      Data: 0
+      Description:
+        - "&8Rarity: %rarity%"
+    RequiredPermission: false
+    Permission: ""
+  GunSettings:
+    Ammo: "SMG"
+    GunType: IMPACT
+    NormalDamage:
+      Common: 8.0
+      Uncommon: 12.0
+      Rare: 15.0
+      Legendary: 17.0
+      Exotic: 20.0
+    HeadShotDamage:
+      Common: 15.0
+      Uncommon: 20.0
+      Rare: 24.0
+      Legendary: 28.0
+      Exotic: 35.0
+    RecoilAmount: 1.2
+    ShootDelay: 200
+    ReloadDelay: 4000
+    AutomaticReload: true
+    ZoomLevel: 3
+    FireMode: AUTOMATIC
+    AmmoCapacity: 30
+    AmmoProjectile:
+      Velocity: 20
+      Bounce: false
+      ProjectileAmount: 1
+    Sound:
+      Shooting:
+        SoundType: BLOCK_LAVA_POP
+        Volume: 0.6
+      Reloading:
+        SoundType: UI_BUTTON_CLICK
+        Volume: 0.8
+      NoBullets:
+        SoundType: UI_BUTTON_CLICK
+        Volume: 0.8
+#Rifles
+AK-47:
+  ItemSettings:
+    Gun:
+      Name: "&aAK-47"
+      ID: STONE_PICKAXE
+      Data: 0
+      Description:
+        - "&8Rarity: %rarity%"
+    RequiredPermission: false
+    Permission: ""
+  GunSettings:
+    Ammo: "Rifle"
+    GunType: IMPACT
+    NormalDamage:
+      Common: 8.0
+      Uncommon: 12.0
+      Rare: 15.0
+      Legendary: 17.0
+      Exotic: 20.0
+    HeadShotDamage:
+      Common: 15.0
+      Uncommon: 20.0
+      Rare: 24.0
+      Legendary: 28.0
+      Exotic: 35.0
+    RecoilAmount: 1.2
+    ShootDelay: 100
+    ReloadDelay: 5000
+    AutomaticReload: true
+    ZoomLevel: 4
+    FireMode: AUTOMATIC
+    AmmoCapacity: 30
+    AmmoProjectile:
+      Velocity: 30
+      Bounce: false
+      ProjectileAmount: 1
+    Sound:
+      Shooting:
+        SoundType: BLOCK_LAVA_POP
+        Volume: 1.0
+      Reloading:
+        SoundType: UI_BUTTON_CLICK
+        Volume: 0.8
+      NoBullets:
+        SoundType: UI_BUTTON_CLICK
+        Volume: 0.8
+M4A4:
+  ItemSettings:
+    Gun:
+      Name: "&aM4A4"
+      ID: STONE_PICKAXE
+      Data: 0
+      Description:
+        - "&8Rarity: %rarity%"
+    RequiredPermission: false
+    Permission: ""
+  GunSettings:
+    Ammo: "Rifle"
+    GunType: IMPACT
+    NormalDamage:
+      Common: 8.0
+      Uncommon: 12.0
+      Rare: 15.0
+      Legendary: 17.0
+      Exotic: 20.0
+    HeadShotDamage:
+      Common: 15.0
+      Uncommon: 20.0
+      Rare: 24.0
+      Legendary: 28.0
+      Exotic: 35.0
+    RecoilAmount: 1.2
+    ShootDelay: 100
+    ReloadDelay: 5000
+    AutomaticReload: true
+    ZoomLevel: 4
+    FireMode: AUTOMATIC
+    AmmoCapacity: 30
+    AmmoProjectile:
+      Velocity: 30
+      Bounce: false
+      ProjectileAmount: 1
+    Sound:
+      Shooting:
+        SoundType: BLOCK_LAVA_POP
+        Volume: 0.6
+      Reloading:
+        SoundType: UI_BUTTON_CLICK
+        Volume: 0.8
+      NoBullets:
+        SoundType: UI_BUTTON_CLICK
+        Volume: 0.8
+Famas:
+  ItemSettings:
+    Gun:
+      Name: "&aFamas"
+      ID: STONE_PICKAXE
+      Data: 0
+      Description:
+        - "&8Rarity: %rarity%"
+    RequiredPermission: false
+    Permission: ""
+  GunSettings:
+    Ammo: "Rifle"
+    GunType: IMPACT
+    NormalDamage:
+      Common: 8.0
+      Uncommon: 12.0
+      Rare: 15.0
+      Legendary: 17.0
+      Exotic: 20.0
+    HeadShotDamage:
+      Common: 15.0
+      Uncommon: 20.0
+      Rare: 24.0
+      Legendary: 28.0
+      Exotic: 35.0
+    RecoilAmount: 1.2
+    ShootDelay: 100
+    ReloadDelay: 5000
+    AutomaticReload: true
+    ZoomLevel: 4
+    FireMode: BURST
+    AmmoCapacity: 30
+    AmmoProjectile:
+      Velocity: 30
+      Bounce: false
+      ProjectileAmount: 3
+    Sound:
+      Shooting:
+        SoundType: BLOCK_LAVA_POP
+        Volume: 0.6
+      Reloading:
+        SoundType: UI_BUTTON_CLICK
+        Volume: 0.8
+      NoBullets:
+        SoundType: UI_BUTTON_CLICK
+        Volume: 0.8
+GalilAR:
+  ItemSettings:
+    Gun:
+      Name: "&aGalilAR"
+      ID: STONE_PICKAXE
+      Data: 0
+      Description:
+        - "&8Rarity: %rarity%"
+    RequiredPermission: false
+    Permission: ""
+  GunSettings:
+    Ammo: "Rifle"
+    GunType: IMPACT
+    NormalDamage:
+      Common: 8.0
+      Uncommon: 12.0
+      Rare: 15.0
+      Legendary: 17.0
+      Exotic: 20.0
+    HeadShotDamage:
+      Common: 15.0
+      Uncommon: 20.0
+      Rare: 24.0
+      Legendary: 28.0
+      Exotic: 35.0
+    RecoilAmount: 1.2
+    ShootDelay: 100
+    ReloadDelay: 5000
+    AutomaticReload: true
+    ZoomLevel: 4
+    FireMode: AUTOMATIC
+    AmmoCapacity: 20
+    AmmoProjectile:
+      Velocity: 30
+      Bounce: false
+      ProjectileAmount: 1
+    Sound:
+      Shooting:
+        SoundType: BLOCK_LAVA_POP
+        Volume: 0.6
+      Reloading:
+        SoundType: UI_BUTTON_CLICK
+        Volume: 0.8
+      NoBullets:
+        SoundType: UI_BUTTON_CLICK
+        Volume: 0.8
+#Snipers
+SAKO:
+  ItemSettings:
+    Gun:
+      Name: "&aSAKO"
+      ID: DIAMOND_PICKAXE
+      Data: 0
+      Description:
+        - "&8Rarity: %rarity%"
+    RequiredPermission: false
+    Permission: ""
+  GunSettings:
+    Ammo: "Sniper"
+    GunType: IMPACT
+    NormalDamage:
+      Common: 8.0
+      Uncommon: 12.0
+      Rare: 15.0
+      Legendary: 17.0
+      Exotic: 20.0
+    HeadShotDamage:
+      Common: 15.0
+      Uncommon: 20.0
+      Rare: 24.0
+      Legendary: 28.0
+      Exotic: 35.0
+    RecoilAmount: 1.2
+    ShootDelay: 3000
+    ReloadDelay: 6000
+    AutomaticReload: true
+    ZoomLevel: 50
+    FireMode: SEMIAUTOMATIC
+    AmmoCapacity: 12
+    AmmoProjectile:
+      Velocity: 40
+      Bounce: false
+      ProjectileAmount: 1
+    Sound:
+      Shooting:
+        SoundType: BLOCK_LAVA_POP
+        Volume: 1.0
+      Reloading:
+        SoundType: UI_BUTTON_CLICK
+        Volume: 0.8
+      NoBullets:
+        SoundType: UI_BUTTON_CLICK
+        Volume: 0.8
+AS50:
+  ItemSettings:
+    Gun:
+      Name: "&aAS50"
+      ID: DIAMOND_PICKAXE
+      Data: 0
+      Description:
+        - "&8Rarity: %rarity%"
+    RequiredPermission: false
+    Permission: ""
+  GunSettings:
+    Ammo: "Sniper"
+    GunType: IMPACT
+    NormalDamage:
+      Common: 8.0
+      Uncommon: 12.0
+      Rare: 15.0
+      Legendary: 17.0
+      Exotic: 20.0
+    HeadShotDamage:
+      Common: 15.0
+      Uncommon: 20.0
+      Rare: 24.0
+      Legendary: 28.0
+      Exotic: 35.0
+    RecoilAmount: 1.2
+    #Time in milliseconds
+    ShootDelay: 5000
+    ReloadDelay: 10000
+    AutomaticReload: true
+    ZoomLevel: 50
+    FireMode: SEMIAUTOMATIC
+    AmmoCapacity: 5
+    AmmoProjectile:
+      Velocity: 25
+      Bounce: false
+      ProjectileAmount: 1
+    Sound:
+      Shooting:
+        SoundType: BLOCK_LAVA_POP
+        Volume: 1.0
+      Reloading:
+        SoundType: UI_BUTTON_CLICK
+        Volume: 0.8
+      NoBullets:
+        SoundType: UI_BUTTON_CLICK
+        Volume: 0.8
+#Rare Weapons
+M21:
+  ItemSettings:
+    Gun:
+      Name: "&aM21"
+      ID: DIAMOND_PICKAXE
+      Data: 0
+      Description:
+        - "&8Rarity: %rarity%"
+    RequiredPermission: false
+    Permission: ""
+  GunSettings:
+    Ammo: "Sniper"
+    GunType: IMPACT
+    NormalDamage:
+      Common: 8.0
+      Uncommon: 12.0
+      Rare: 15.0
+      Legendary: 17.0
+      Exotic: 20.0
+    HeadShotDamage:
+      Common: 15.0
+      Uncommon: 20.0
+      Rare: 24.0
+      Legendary: 28.0
+      Exotic: 35.0
+    RecoilAmount: 1.2
+    ShootDelay: 4000
+    ReloadDelay: 10000
+    AutomaticReload: true
+    ZoomLevel: 50
+    FireMode: SEMIAUTOMATIC
+    AmmoCapacity: 10
+    AmmoProjectile:
+      Velocity: 25
+      Bounce: false
+      ProjectileAmount: 1
+    Sound:
+      Shooting:
+        SoundType: BLOCK_LAVA_POP
+        Volume: 0.4
+      Reloading:
+        SoundType: UI_BUTTON_CLICK
+        Volume: 0.6
+      NoBullets:
+        SoundType: UI_BUTTON_CLICK
+        Volume: 0.6
+Negev:
+  ItemSettings:
+    Gun:
+      Name: "&aNegev"
+      ID: DIAMOND_PICKAXE
+      Data: 0
+      Description:
+        - "&8Rarity: %rarity%"
+    RequiredPermission: false
+    Permission: ""
+  GunSettings:
+    Ammo: "MachineGun"
+    GunType: IMPACT
+    NormalDamage:
+      Common: 8.0
+      Uncommon: 12.0
+      Rare: 15.0
+      Legendary: 17.0
+      Exotic: 20.0
+    HeadShotDamage:
+      Common: 15.0
+      Uncommon: 20.0
+      Rare: 24.0
+      Legendary: 28.0
+      Exotic: 35.0
+    RecoilAmount: 1.2
+    ShootDelay: 100
+    ReloadDelay: 15000
+    AutomaticReload: true
+    ZoomLevel: 4
+    FireMode: AUTOMATIC
+    AmmoCapacity: 100
+    AmmoProjectile:
+      Velocity: 25
+      Bounce: false
+      ProjectileAmount: 1
+    Sound:
+      Shooting:
+        SoundType: BLOCK_LAVA_POP
+        Volume: 0.4
+      Reloading:
+        SoundType: UI_BUTTON_CLICK
+        Volume: 0.6
+      NoBullets:
+        SoundType: UI_BUTTON_CLICK
+        Volume: 0.6
+RPG:
+  ItemSettings:
+    Gun:
+      Name: "&aRPG"
+      ID: GOLD_PICKAXE
+      Data: 0
+      Description:
+        - "&8Rarity: %rarity%"
+    RequiredPermission: false
+    Permission: ""
+  GunSettings:
+    Ammo: "RPG"
+    GunType: EXPLOSIVE
+    NormalDamage:
+      Common: 8.0
+      Uncommon: 12.0
+      Rare: 15.0
+      Legendary: 17.0
+      Exotic: 20.0
+    HeadShotDamage:
+      Common: 15.0
+      Uncommon: 20.0
+      Rare: 24.0
+      Legendary: 28.0
+      Exotic: 35.0
+    RecoilAmount: 1.2
+    ShootDelay: 1000
+    ReloadDelay: 10000
+    AutomaticReload: true
+    ZoomLevel: 10
+    FireMode: SEMIAUTOMATIC
+    AmmoCapacity: 1
+    AmmoProjectile:
+      Velocity: 3
+      Bounce: false
+      ProjectileAmount: 1
+    Sound:
+      Shooting:
+        SoundType: BLOCK_LAVA_POP
+        Volume: 1.0
+      Reloading:
+        SoundType: UI_BUTTON_CLICK
+        Volume: 0.8
+      NoBullets:
+        SoundType: UI_BUTTON_CLICK
+        Volume: 0.8

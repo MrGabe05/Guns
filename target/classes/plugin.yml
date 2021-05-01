@@ -1,0 +1,8 @@
+name: Guns
+author: GabrielHD55
+version: 1.0
+main: com.gabrielhd.guns.GunsPlugin
+depend: [ProtocolLib]
+commands:
+  guns:
+    usage: /<command>

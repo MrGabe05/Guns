@@ -1,0 +1,17 @@
+Grenade:
+  #Here you can configure the item of the explosive
+  ItemSettings:
+    RequiredPermission: false
+    Permission: ""
+    Explosive:
+      Name: "&eGrenade"
+      ID: DIAMOND
+      Data: 0
+      Description:
+        - "&f"
+  ExplosiveSettings:
+    ExplosiveType: THROWING
+    ExplosionRadius: 4
+    ExplosionDelay: 7000
+    ShootDelay: 3000
+    VelocityMuliplier: 4

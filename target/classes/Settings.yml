@@ -1,0 +1,14 @@
+Messages:
+  NoPermissions: "&cYou don't have permissions"
+  ReloadingWeapon: "&cReloading weapon %weapon%..."
+  WeaponReloaded: "&a%weapon% Reloaded."
+  WeaponStatus: "&a%weapon% &7%currentamount%/%totalammo%"
+  NoBullets: "&c%weapon% has no bullets"
+  InCooldown: "&cYou have to wait %time% seconds to use this again"
+  MedicineUse: "&aYou wore the %medicine%, you were healed %health% hearts"
+  Rarities:
+    Common: "&8Common"
+    Uncommon: "&7Uncommon"
+    Rare: "&eRare"
+    Legendary: "&6Legendary"
+    Exotic: "&5Exotic"
